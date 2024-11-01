@@ -1,0 +1,83 @@
+[versions]
+agp = "8.6.1"
+androidxAppcompat = "1.5.0"
+androidxJunit = "1.1.3"
+androidxRoomKtx = " 2.5.0"
+appcompatVersion = "1.3.1"
+constraintlayoutVersion = "2.1.0"
+coreKtxVersion = "1.7.0"
+espressoCoreVersion = "3.4.0"
+googleMaterial = "1.5.0"
+gsonVersion = "2.10.1"
+kotlin = "1.9.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+kotlinxCoroutinesAndroid = "1.5.2"
+lifecyclelivedataKtx = "2.4.0"
+lifecycleLivedataKtxVersion = "2.3.1"
+lifecycleViewmodelKtx = "2.8.6"
+lifecycleViewmodelKtxVersion = "2.3.1"
+material = "1.12.0"
+activity = "1.9.2"
+constraintlayout = "2.1.4"
+materialVersion = "1.4.0"
+recyclerview = "1.1.0"
+roomCompiler = " 2.5.0"
+roomCompilerVersion = "2.4.2"
+roomKtxVersion = " 2.5.0"
+roomRuntime = "2.3.0"
+roomRuntimeVersion = " 2.5.0"
+rxjava = "3.0.0"
+rxjava2 = "1.0.0"
+squareupRetrofit = "2.9.0"
+xcomConverterGsonVersion = "2.9.0"
+roomCommon = "2.6.1"
+roomKtx = "2.6.1"
+
+[libraries]
+androidx-appcompat-v131 = { module = "androidx.appcompat:appcompat", version.ref = "appcompatVersion" }
+androidx-appcompat-v150 = { module = "androidx.appcompat:appcompat", version.ref = "androidxAppcompat" }
+androidx-constraintlayout-v210 = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayoutVersion" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-core-ktx-v170 = { module = "androidx.core:core-ktx", version.ref = "coreKtxVersion" }
+androidx-espresso-core-v340 = { module = "androidx.test.espresso:espresso-core", version.ref = "espressoCoreVersion" }
+androidx-junit-v113 = { module = "androidx.test.ext:junit", version.ref = "androidxJunit" }
+androidx-lifecycle-livedata-ktx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycleLivedataKtxVersion" }
+androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+androidx-lifecycle-viewmodel-ktx-v231 = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtxVersion" }
+androidx-lifecyclelivedata-ktx = { module = "androidx.lifecycle:lifecyclelivedata-ktx", version.ref = "lifecyclelivedataKtx" }
+androidx-recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomRuntime" }
+androidx-room-compiler-v242 = { module = "androidx.room:room-compiler", version.ref = "roomCompilerVersion" }
+androidx-room-compiler-v250 = { module = "androidx.room:room-compiler", version.ref = "roomCompiler" }
+androidx-room-ktx-v250 = { module = "androidx.room:room-ktx", version.ref = "androidxRoomKtx" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }
+androidx-room-runtime-v250 = { module = "androidx.room:room-runtime", version.ref = "roomRuntimeVersion" }
+google-gson = { module = "com.google.code.gson:gson", version.ref = "gsonVersion" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesAndroid" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+material-v140 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
+material-v150 = { module = "com.google.android.material:material", version.ref = "googleMaterial" }
+room-ktx-v250 = { module = "androidx.room:room-ktx", version.ref = "roomKtxVersion" }
+runtime = { module = "android.arch.persistence.room:runtime", version.ref = "rxjava2" }
+rxandroid = { module = "io.reactivex.rxjava3:rxandroid", version.ref = "rxjava" }
+rxjava = { module = "io.reactivex.rxjava3:rxjava", version.ref = "rxjava" }
+rxjava2 = { module = "android.arch.persistence.room:rxjava2", version.ref = "rxjava2" }
+squareup-retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "squareupRetrofit" }
+xcom-squareup-retrofit2-converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "xcomConverterGsonVersion" }
+androidx-room-common = { group = "androidx.room", name = "room-common", version.ref = "roomCommon" }
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomKtx" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
